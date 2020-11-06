@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+}
+
+main {
+  background-image: url("https://images.unsplash.com/photo-1570286424717-86d8a0082d0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=676&q=80");
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 600px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+}
+
+main button {
+  width: 200px;
+  height: 50px;
+  font-size: 32px;
+}
+
+main input {
+  font-size: 28px;
+  width: 400px;
+  height: 50px;
+}
+/*# sourceMappingURL=style.css.map */
